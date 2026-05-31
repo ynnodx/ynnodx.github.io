@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Anime Survey</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script src=""></script>
+<body style="font-family: Arial, sans-serif; background-color: #ed2939; color: #fae1a5;">
+
+<a style="background-color: #fae1a5; color: #ed2939; padding: 10px; text-decoration: none;" href="index.html">Home</a>
+ <a style="background-color: #fae1a5; color: #ed2939; padding: 10px; text-decoration: none;" href="table.html">Table</a>
+    <a style="background-color: #fae1a5; color: #ed2939; padding: 10px; text-decoration: none;" href="Form.html">Form</a>
+    <a style="background-color: #fae1a5; color: #ed2939; padding: 10px; text-decoration: none;" href="https://www.google.com" target="_blank">Google</a>
+
+<div class="">
+ <h1>Anime Survey</h1>
+ <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form><br>
+Favorite Anime Genre:<br>
+<select name="anime_genre" id="anime_genre">
+  <option value="action">Action</option>
+  <option value="comedy">Comedy</option>
+  <option value="drama">Drama</option>
+  <option value="fantasy">Fantasy</option>
+  <option value="horror">Horror</option>
+  <option value="romance">Romance</option>
+  <option value="sci-fi">Sci-Fi</option>
+  <option value="slice_of_life">Slice of Life</option>
+  <option value="sports">Sports</option>
+  <option value="supernatural">Supernatural</option>
+</select>
+
+ <p>Years of Anime Watching Experience:</p>
+
+<form>
+  <input type="radio" id="0-2" name="Years_of_Experience" value="0-2">
+  <label for="0-2">0-2 years</label><br>
+  <input type="radio" id="3-5" name="Years_of_Experience" value="3-5">
+  <label for="3-5">3-5 years</label><br>
+  <input type="radio" id="6-10" name="Years_of_Experience" value="6-10">
+  <label for="6-10">6-10 years</label><br>
+  <input type="radio" id="10plus" name="Years_of_Experience" value="10+">
+  <label for="10plus">10+ years</label>
+</form>
+
+</div>
+
+<textarea style="background-color: #fae1a5; width: 15%; height: 200px;" id="comments" name="comments" rows="4" cols="50"; border: 1px solid #ccc; padding: 10px; font-family: Arial, sans-serif; font-size: 14px;">
+Enter your comments here...
+</textarea>
+<div style="margin-top: 10px;display: flex; gap: 10px;">
+  <button style="background-color: #fae1a5;"} type="submit">Submit</button>
+  <button style="background-color: #fae1a5;"} type="reset">Reset</button>
+  
+</div>
